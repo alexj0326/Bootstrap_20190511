@@ -1,0 +1,47 @@
+
+body{
+
+    /*加入 引用  Microsoft JhengHei 微軟正黑體*/
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji", "Microsoft JhengHei" ;
+
+
+}
+
+.navbar{
+
+    border-width: 5px !important;
+
+}
+
+
+.carousel-item img{
+
+    height: 500px; 
+
+
+}
+
+.carousel-caption {
+
+    background: rgba(0,0,0,0.5)
+
+}
+
+
+@media(max-width：768px ){
+
+    .myimg{
+
+        order: 1;
+
+    }
+
+    .mytext{
+
+        order: 2;
+
+    }
+
+
+}
