@@ -45,3 +45,29 @@ body{
 
 
 }
+
+#jb1{
+
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(../img/Geography_03.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 63px);
+    margin-bottom: 0px;
+    color: white;
+}
+
+.card-img-top{
+
+    height: 200px;
+    object-fit: cover;
+
+
+}
+
+.card-body{
+    max-height: 200px;
+    overflow-y: auto;
+
+}
